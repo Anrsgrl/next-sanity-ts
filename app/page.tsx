@@ -1,3 +1,4 @@
+import Posts from "@/components/layout/Posts";
 import Image from "next/image";
 
 export default function Home() {
@@ -87,6 +88,7 @@ export default function Home() {
             Sanity docs →
           </a>
         </div>
+        {/* <Posts /> */}
       </main>
     </div>
   );
